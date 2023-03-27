@@ -1,0 +1,100 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: #7299e2;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    font-weight: lighter;
+}
+.container{
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    align-self: center;
+   
+}
+
+.imageHover {
+    position: relative;
+    height: 250px;
+}
+
+.hover {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color:  hsla(178, 100%, 50%, 0.288);
+    border-radius: 10px;
+    transition: all .3s;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    opacity: 0;
+}
+
+.hover:hover {
+    opacity: 1;
+}
+
+
+#equilibrium{
+    border-radius:10px; 
+    width: 100%;
+    height: 100%;
+}
+.Julesimg{
+    width: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.hovertext{
+    cursor: pointer;
+}
+.hovertext:hover, .white:hover {
+    color: cyan;
+}
+.hr{
+    background-color: hsl(215, 32%, 27%);
+    height: 1px;
+    width: 100%;
+}
+.meth{
+    color: hsl(178, 100%, 50%);
+   font-size: 18px;
+}
+.white{
+    color: hsl(0, 0%, 100%);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.space {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.space span {
+    display: flex;
+    align-items: center;
+}
+.space span img {
+    margin-right: 5px;
+}
+.flex > img {
+    margin-right: 10px;
+}
+
+.flex span {
+    color: white;
+    padding-left: 5px;
+}
+.display{
+    display: flex;
+    align-items: center;
+}
